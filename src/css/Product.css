@@ -1,0 +1,36 @@
+.image{
+    width: 170px;
+    height: 230px;
+}
+
+.card{
+    width: 200px;
+    height: 400px;
+    box-shadow: 1px 4px 3px lightgrey;
+    border-radius: 10px;
+    margin: 15px;
+}
+
+.card:hover{
+    box-shadow: 1px 4px 3px rgb(89, 87, 87);
+    transition: all 0.6s;
+    cursor: pointer;
+}
+
+.title-text{
+    text-align: center;
+    height: 50px;
+    margin: 8px;
+}
+
+.detail-button{
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+.detail-button:hover{
+    background-color: rgb(41, 39, 39);
+    color: #fff;
+    transition: all 0.6s;
+    cursor: pointer;
+}
