@@ -6,6 +6,8 @@
     font-family: arial;
     font-size: 15px;
     font-weight: 600;
+    color: inherit;
+    text-decoration: none;
 }
 .search-input{
     border: none;

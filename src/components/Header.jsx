@@ -3,21 +3,22 @@ import { CiLight } from "react-icons/ci";
 import { FaMoon } from "react-icons/fa";
 import '../css/Header.css';
 import { useState } from "react";
+import { NavLink } from "react-router-dom";
 
 function Header() {
 
     const [theme, setTheme] = useState(true);
 
     const changeTheme = () => {
-        const root = document.getElementById("root");
+        const body = document.querySelector("body");
         
         if(theme){
-            root.style.backgroundColor = "black";
-            root.style.color = "#fff";
+            body.style.backgroundColor = "black";
+            body.style.color = "#fff";
         }
         else{
-            root.style.backgroundColor = "#fff";
-            root.style.color = "black";
+            body.style.backgroundColor = "#fff";
+            body.style.color = "black";
         }
         setTheme(!theme);
     }
@@ -25,8 +26,8 @@ function Header() {
     return (
         <div className='space-between'>
             <div className='flex-row'>
-                <img className='logo' src="./src/images/logo.png" alt="logo" />
-                <p className='logo-text'>GRAYISH A.Ş</p>
+                <NavLink to={"/"}><img className='logo' src="./src/images/logo.png" alt="logo" /></NavLink>
+                <NavLink to={"/"} className="logo-text">GRAYISH A.Ş</NavLink> 
             </div>
             <div className="flex-row">
                 <input className='search-input' type="text" placeholder='Bir şeyler ara..' />

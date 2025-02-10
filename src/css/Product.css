@@ -1,11 +1,11 @@
 .image{
     width: 170px;
-    height: 230px;
+    height: 200px;
 }
 
 .card{
     width: 200px;
-    height: 400px;
+    height: 380px;
     box-shadow: 1px 4px 3px lightgrey;
     border-radius: 10px;
     margin: 15px;
