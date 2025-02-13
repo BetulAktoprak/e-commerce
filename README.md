@@ -22,7 +22,7 @@ Bu projede `https://fakestoreapi.com` kullanılmıştır. Ürünleri çekmek iç
 GET https://fakestoreapi.com/products
 ```
 
-![image](./src/images/Kayıt%202025-02-13%20220905.mp4)
+![image](./src/images/grayish.gif)
 
 ## 📦 Kurulum ve Çalıştırma
 1. Projeyi klonlayın:
