@@ -1,8 +1,41 @@
-# React + Vite
+# E-Ticaret Uygulaması (React.js)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bu proje, geliştirilen bir e-ticaret uygulamasıdır. Uygulama, ürün listeleme, arama, sepet yönetimi ve tema değiştirme gibi temel e-ticaret özelliklerini içermektedir.
 
-Currently, two official plugins are available:
+## 🚀 Özellikler
+- 🛒 **Ürün Listeleme:** API'den gelen ürünlerin listelenmesi
+- 🔍 **Arama:** Ürünler arasında arama yapma
+- ➕ **Sepet Yönetimi:** Ürün ekleme, çıkarma ve miktar azaltma
+- 🌗 **Tema Değiştirme:** Koyu ve açık tema desteği
+- ⚡ **Redux Toolkit Kullanımı:** Global state yönetimi
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Kullanılan Teknolojiler
+- **React.js** (Vite ile)
+- **Redux Toolkit** (Global state yönetimi için)
+- **Axios** (API istekleri için)
+- **Material UI** (Badge bileşeni için)
+- **React Icons** (İkonlar için)
+
+## 📝 API Kullanımı
+Bu projede `https://fakestoreapi.com` kullanılmıştır. Ürünleri çekmek için şu endpoint kullanılmaktadır:
+```sh
+GET https://fakestoreapi.com/products
+```
+
+![image](./src/images/Kayıt%202025-02-13%20220905.mp4)
+
+## 📦 Kurulum ve Çalıştırma
+1. Projeyi klonlayın:
+   ```sh
+   git clone https://github.com/kullanici-adin/proje-adi.git
+   cd proje-adi
+   ```
+2. Bağımlılıkları yükleyin:
+   ```sh
+   npm install
+   ```
+3. Uygulamayı başlatın:
+   ```sh
+   npm run dev
+   ```
+4. Tarayıcınızda açın: `http://localhost:5173`
