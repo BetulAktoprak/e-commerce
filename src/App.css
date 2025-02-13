@@ -27,3 +27,27 @@ body{
 #root{
   height: 100vh;
 }
+
+.drawer-price{
+  font-weight: bolder !important; 
+  width: 65px;
+}
+.drawer-button{
+  background-color: rgb(212, 34, 34);
+  color: white;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  padding: 3px 8px;
+  cursor: pointer;
+}
+.drawer-count{
+  width: 40px;
+}
+.totalPrice{
+  float: right;
+  margin: 25px 10px;
+  padding: 10px;
+  border-radius: 2px;
+  background-color: rgb(236, 233, 230);
+  font-weight: bolder;
+}

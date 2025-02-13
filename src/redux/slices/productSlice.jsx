@@ -4,6 +4,7 @@ import axios from 'axios'
 const initialState = {
     products : [],
     selectedProduct : {},
+    search : "",
     loading : false
 };
 
@@ -20,6 +21,9 @@ export const productSlice = createSlice({
     reducers : {
         setSelectedProduct : (state, action) => {
             state.selectedProduct = action.payload;
+        },
+        searchProduct : (state, action) => {
+            state.search = action.payload;
         }
     },
     extraReducers : (builder) => {
@@ -33,6 +37,6 @@ export const productSlice = createSlice({
     }
 });
 
-export const { setSelectedProduct } = productSlice.actions
+export const { setSelectedProduct, searchProduct } = productSlice.actions
 
 export default productSlice.reducer
